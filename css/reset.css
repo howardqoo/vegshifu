@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* [javascript/Ajax Samples]
+ * Summary: reset browser style
+ * Modified: 2009-05-12
+ */
+
+h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,object {
+	margin: 0;
+	padding: 0;
+}
+
+/* body */
+html,body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+body { font-size: 16px; }
+* html body {font-size: 100%;}
+*:first-child+html body {font-size: 100%;}
+
+/* block elements */
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+li { list-style-type: none; }
+hr { display: none; }
+address { font-style: normal; }
+
+/* table */
+table {
+	border: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+th,td {
+	padding: 0;
+	font-weight: normal;
+	text-align: left;
+	vertical-align: top;
+}
+
+/* form */
+textarea { font-size: 100%; }
+
+/* inline-elements*/
+img {
+	border: 0;
+	vertical-align: bottom;
+}
+object { vertical-align: bottom; }
+em { font-style: normal; }
+a:link,
+a:visited {}
+a:hover,
+a:focus,
+a:active {}
