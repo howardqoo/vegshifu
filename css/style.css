@@ -10,7 +10,7 @@ body {
     line-height: 1.52;
     color: #717f86;
     font-size: 19px;
-	font-family: DFKai-sb;;
+	font-family:  "標楷體",DFKai-SB;
     font-weight: 400;
     text-align: center;
     overflow-x: hidden;
@@ -23,56 +23,6 @@ body {
 	line-height: 1.5;
 }
 
-/* entry -- font / text styles
-----------------------------------------*/
-#entry-date { letter-spacing:.1em; }
-#entry h2 { font-size: 150%; }
-
-#entry-container h2 {font-weight: bold;}
-
-
-#thumbs-container a,
-#thumbs-container a:visited {
-	color: #333;
-	text-decoration: underline;
-}
-#thumbs-container a:hover,
-#thumbs-container a:focus,
-#thumbs-container a:active {
-	text-decoration: none;
-}
-
-/* thumbnail
-------------------------------*/
-#thumbs-container {
-	clear: both;
-	width: 700px;
-	margin: 0 auto;
-	padding-bottom: 30px;
-	text-align: left;
-}
-ul#thumbs {
-	position: relative;
-	width: 705px;
-	margin: 0 -5px 10px 0;
-	overflow: hidden;
-}
-ul#thumbs li {
-	float: left;
-	width: 15vw;
-}
-ul#thumbs li a img,
-ul#thumbs li a:visited img {
-	border: 2px solid #FFF;
-}
-ul#thumbs li a.on img,
-ul#thumbs li a:hover img,
-ul#thumbs li a:active img {
-	border: 2px solid #000;
-}
-/*
-ul#thumbs li a.zoom {display: none;}
-*/
 ol, ul {
 	list-style: none;
 }
@@ -98,12 +48,12 @@ table {
     min-height: 630px;
 }
 #banner h2{
-    font-family: DFKai-sb;;
+    font-family:  "標楷體",DFKai-SB;
     font-size: 45px;
     color: #FFB03B;
 }
 #banner p{
-    font-family: DFKai-sb;;
+    font-family:  "標楷體",DFKai-SB;
     color: #fcfcfc;
     font-size: 34px;
 }
@@ -111,7 +61,7 @@ table {
     padding: 60px 0px;
 }
 .logo-name{
-    font-family: DFKai-sb;;
+    font-family:  "標楷體",DFKai-SB;
     font-size: 65px;
     margin-top: 140px;
     color: #FFB03B;
@@ -161,7 +111,7 @@ table {
 .header-h {
     color: #FFB03B;
     font-size: 46px;
-    font-family: DFKai-sb;;
+    font-family:  'Satisfy', sans-serif;
     font-weight: 300;
 }
 .header-p {
@@ -263,7 +213,7 @@ table {
     height: 54px;
     border-radius: 3px;
     font-size: 19px;
-    font-family: DFKai-sb;;
+    font-family:  "標楷體",DFKai-SB;
     font-weight: normal;
     text-transform: capitalize;
     border: 0px;
@@ -311,7 +261,7 @@ table {
 
 
 .heading{
-    font-family: DFKai-sb;;
+    font-family:  "標楷體",DFKai-SB;
     color: #FFB03B;
     font-size: 24px;
 }
@@ -354,7 +304,7 @@ table {
     color: #FFB03B;
     font-size: 32px;
     padding-bottom: 15px;
-    font-family:DFKai-sb;;
+    font-family: "標楷體",DFKai-SB;
 }
 .content-holder address strong {
     color: #FFB03B;
@@ -369,7 +319,7 @@ table {
 .btn-read-more {
     background: #FFB03B;
     padding: 7px 19px;
-    font-family: DFKai-sb;;
+    font-family:  "標楷體",DFKai-SB;
     font-size: 16px;
     line-height: 17px;
     font-weight: 400;
@@ -394,7 +344,7 @@ table {
 }
 .menu-restaurant .menu-title {
     float: left;
-    font-family: DFKai-sb;;
+    font-family:  "標楷體",DFKai-SB;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #FFB03B;
@@ -416,7 +366,7 @@ table {
     display: block;
     float: left;
     color: #B1B1B1;
-    font-family: DFKai-sb;;
+    font-family:  "標楷體",DFKai-SB;
     font-size: 1.2rem;
 }
 .menu-restaurant span.clearfix {
@@ -468,7 +418,7 @@ table {
 }
 .footer .widget-title{
     padding-bottom: 20px;
-    font-family: DFKai-sb;;
+    font-family:  "標楷體",DFKai-SB;
     font-size: 44px;
     color: #FFB03B;
 }
